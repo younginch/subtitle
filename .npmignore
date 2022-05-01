@@ -1,0 +1,6 @@
+__test__/
+src/
+.jest/
+.eslintrc.js
+prettier.config.js
+tsconfig.json
