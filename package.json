@@ -8,7 +8,7 @@
     "build": "tsc",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest",
-    "coverage": "jest --coverage --collectCoverageFrom=src/**/*.{ts,tsx}"
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
