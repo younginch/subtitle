@@ -45,7 +45,11 @@ jobs:
         run: npm ci
       - name: Test
         run: npm run coverage
-      - uses: codecov/codecov-action@v2
+      - name: Code Climate Coverage Action
+        uses: paambaati/codeclimate-action@v3.0.0
+        env:
+          CC_TEST_REPORTER_ID: cfbbbb9db607b3c503fe3af721ac5c8efc801024a8fc8d7ea6759e11a54396bd
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          fail_ci_if_error: true
+          coverageCommand: npm run coverage
+          coverageLocations: |
+            ${{github.workspace}}/coverage/lcov.info:lcov
