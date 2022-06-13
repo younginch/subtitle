@@ -1,25 +1,25 @@
 {
-  "name": "sub-core",
+  "name": "subcloud-core",
   "version": "0.1.0",
-  "description": "sub-core",
+  "description": "subcloud-core",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest",
-    "coverage": "jest --coverage --collectCoverageFrom=src/**/*.{ts,tsx}"
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/younginch/sub-core.git"
+    "url": "git+https://github.com/younginch/subcloud-core.git"
   },
   "author": "Seungbin Oh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/younginch/sub-core/issues"
+    "url": "https://github.com/younginch/subcloud-core/issues"
   },
-  "homepage": "https://github.com/younginch/sub-core#readme",
+  "homepage": "https://github.com/younginch/subcloud-core#readme",
   "devDependencies": {
     "@types/jest": "^28.1.1",
     "@types/node": "^17.0.30",
