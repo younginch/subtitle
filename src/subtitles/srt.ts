@@ -51,7 +51,7 @@ export default class SRTFile extends Subtitle {
     const sub: SRTComponent = new SRTComponent(
       this.rawArray[index - 1],
       this.rawArray[index],
-      this.rawArray.slice(index + 1, -1),
+      this.rawArray.slice(index + 1),
     );
     this.array.push(sub);
   }
