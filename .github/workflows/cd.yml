@@ -1,11 +1,12 @@
-name: Publish package to npmjs
+name: CD
 
 on:
   release:
     types: [created]
 
 jobs:
-  build:
+  publish:
+    name: Publish package to npm
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
