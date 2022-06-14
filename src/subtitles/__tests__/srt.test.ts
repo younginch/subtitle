@@ -18,10 +18,10 @@ Beside you, the prince who will soon have seoul.
 
 5
 00:00:31,182 --> 00:00:34,282
-I make money, enough to buy you saim, sejong.`;
+I make money, enough to buy you saim, sejong.`
+;
 
 test('parse Srt', () => {
   const srtFile = new SRTFile(sample);
-  srtFile.parseSRTFile();
   expect(srtFile.array[0].line).toBe(1);
 });
