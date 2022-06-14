@@ -4,7 +4,7 @@ import Subtitle from './subtitle';
 
 export class VTTComponent extends SubComponent {}
 
-export default class VTTFile extends Subtitle {
+export class VTTFile extends Subtitle {
   array: VTTComponent[] = [];
 
   constructor(file: string) {

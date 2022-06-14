@@ -1,12 +1,12 @@
 {
   "name": "@younginch/subtitle",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "@younginch/subtitle",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest",
     "coverage": "jest --coverage"
