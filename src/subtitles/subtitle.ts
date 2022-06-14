@@ -13,5 +13,6 @@ export default class Subtitle {
         index = i;
       } else if (str[i - 1] === '\n') index = i;
     }
+    if(index !== str.length - 1) this.rawArray.push(str.substring(index));
   }
 }
