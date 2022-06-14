@@ -23,5 +23,5 @@ I make money, enough to buy you saim, sejong.`
 
 test('parse Srt', () => {
   const srtFile = new SRTFile(sample);
-  expect(srtFile.array[0].line).toBe(1);
+  expect(srtFile.array[4].textArray[0]).toBe("I make money, enough to buy you saim, sejong.");
 });
