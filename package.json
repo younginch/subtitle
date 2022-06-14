@@ -1,7 +1,7 @@
 {
-  "name": "subcloud-core",
+  "name": "@younginch/subtitle",
   "version": "0.1.0",
-  "description": "subcloud-core",
+  "description": "@younginch/subtitle",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/younginch/subcloud-core.git"
+    "url": "git+https://github.com/younginch/subtitle.git"
   },
   "author": "Seungbin Oh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/younginch/subcloud-core/issues"
+    "url": "https://github.com/younginch/subtitle/issues"
   },
-  "homepage": "https://github.com/younginch/subcloud-core#readme",
+  "homepage": "https://github.com/younginch/subtitle#readme",
   "devDependencies": {
     "@types/jest": "^28.1.1",
     "@types/node": "^17.0.30",
