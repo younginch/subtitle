@@ -1,6 +1,10 @@
 __tests__/
 src/
-.jest/
+coverage/
+.github/
+.eslintignore
 .eslintrc.js
+jest.config.js
 prettier.config.js
 tsconfig.json
+tsconfig.build.json
