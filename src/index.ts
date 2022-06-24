@@ -1,7 +1,4 @@
-import SubComponent from './subtitles/subComponent';
-import Subtitle from './subtitles/subtitle';
+import SRTFile from './subtitles/SRTFile';
+import SRTContent from './subtitles/SRTContent';
 
-export { Subtitle, SubComponent };
-
-export * from './subtitles/srt'
-export * from './subtitles/vtt'
+export { SRTFile, SRTContent };
