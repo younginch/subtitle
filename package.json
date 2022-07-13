@@ -1,6 +1,6 @@
 {
   "name": "@younginch/subtitle",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "@younginch/subtitle",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
