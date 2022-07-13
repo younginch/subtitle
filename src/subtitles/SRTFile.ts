@@ -46,7 +46,7 @@ export default class SRTFile implements Subtitle {
     for (let i = 0; i < this.array.length; i += 1) {
       text += `${this.array[i].line}\n`;
       text += `${toTimestamp(this.array[i].startTime)} --> ${toTimestamp(this.array[i].endTime)}\n`;
-      text += `${this.array[i].toText()}\n`;
+      text += `${this.array[i].toText()}\n\n`;
     }
     return text;
   }

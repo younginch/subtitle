@@ -20,7 +20,7 @@ export default class SRTContent implements SubContent {
   }
 
   toText(): string {
-    return this.textArray.reduce((acc, cur) => `${acc}${cur}\n`, '');
+    return this.textArray.reduce((acc, cur) => `${acc}${cur}\n`, '').trimEnd();
   }
 
   toHTML(): string {
