@@ -23,15 +23,20 @@ export function separate(rawText: string): string[] {
   return rawArray;
 }
 
+/**
+ * 
+ * @param sTime HH:mm:ss,SSS
+ * @returns milliseconds
+ */
 export function parseTime(sTime: string): number {
   const h = Number(sTime.substring(0, 2));
   const m = Number(sTime.substring(3, 5));
   const s = Number(sTime.substring(6, 8));
   const ms = Number(sTime.substring(9, 12));
-  return h * 3600 + m * 60 + s + ms / 1000;
+  return h * 3600 * 1000 + m * 60 * 1000 + s * 1000 + ms;
 }
 
-export function toTimestamp(time: number): string {
+export function toTimestamp(milliseconds: number): string {
   dayjs.extend(duration);
-  return dayjs.duration(time * 1000).format('HH:mm:ss,SSS');
+  return dayjs.duration(milliseconds).format('HH:mm:ss,SSS');
 }
